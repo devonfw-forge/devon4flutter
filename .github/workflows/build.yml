@@ -1,8 +1,6 @@
 name: CI Build
 on: 
   push:
-    paths-ignore:
-      - 'documentation/**'
     branches: [ master ]
 jobs:
   build:
