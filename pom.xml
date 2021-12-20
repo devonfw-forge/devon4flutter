@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.devonfw-forge.tools</groupId>
+    <artifactId>devonfw-forge-docgen-pdf</artifactId>
+    <version>2021.04.001</version>
+    <relativePath></relativePath>
+  </parent>
+  <groupId>com.devonfw-forge.java.doc</groupId>
+  <artifactId>devon4flutter-doc</artifactId>
+  <version>${revision}</version>
+  <packaging>pom</packaging>
+  <name>${project.artifactId}</name>
+  <description>The devon4flutter documentation, which contains detailed instructions on how to use Flutter in devonfw-forge.</description>
+
+  <properties>
+    <docgen.asciidoc.page>devon4flutter-doc</docgen.asciidoc.page>
+    <revision>dev-SNAPSHOT</revision>
+  </properties>
+
+  <!-- run "mvn package" and get the PDF result in target/generated-docs/*.pdf -->
+  
+</project>
