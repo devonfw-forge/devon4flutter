@@ -1,4 +1,4 @@
-= Java
+= Flutter
 
 :description: comprehensive documentation for development with Flutter by devonfw-forge.
 :doctype: book
@@ -13,5 +13,23 @@
 :chapter-label:
 :partnums:
 :imagesdir: ./
-The devonfw community
-${project.version}, ${buildtime}
+The devonfw community 
+${project.version},${buildtime}
+
+Add short description to devonfw-forge...
+
+The following sections contain the complete compendium of https://github.com/devonfw-forge/devon4flutter[devon4flutter] from devonfw-forge.
+
+You can also read the latest version of this documentation online at the following sources:
+
+//Diese Quarkus Beispiele mit Flutter Links ersetzen:
+// * https://github.com/devonfw/devon4j/wiki[devon4j on github wiki]
+// * https://devonfw.com/website/pages/docs/devon4j.asciidoc.html[devon4j on devonfw.com].
+// * https://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.devonfw.java.doc&a=devon4j-doc&v=LATEST&p=pdf[devon4j as PDF on maven-central]
+
+== General
+Here you can find documentation and code patterns for development with Flutter in general.
+
+include::flutter.asciidoc[leveloffset=+2]
+
+<<<<
