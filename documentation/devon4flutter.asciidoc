@@ -6,15 +6,13 @@
 :toc-title: Table of Contents
 :idprefix:
 :idseparator: -
-:sectnums:
 :reproducible:
 :source-highlighter: rouge
 :listing-caption: Listing
 :chapter-label:
-:partnums:
 :imagesdir: ./
 The devonfw community 
-${project.version},${buildtime}
+${project.version},´${buildtime}´
 
 Add short description to devonfw-forge...
 
