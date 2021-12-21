@@ -12,7 +12,6 @@
 :chapter-label:
 :imagesdir: ./
 The devonfw community 
-${project.version},´${buildtime}´
 
 Add short description to devonfw-forge...
 
