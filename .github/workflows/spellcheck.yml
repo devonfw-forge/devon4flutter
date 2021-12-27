@@ -2,7 +2,7 @@ name: spellcheck
 on:
   push:
     paths:
-       - '***.asciidoc'
+       - '**.asciidoc'
        - '**.adoc'
        - '**.md'
   workflow_dispatch:
