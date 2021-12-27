@@ -2,7 +2,7 @@
 
 == flutter
 
-=== link:flutter.asciidoc[Introduction to Flutter]
+=== link:flutter.adoc[Introduction to Flutter]
 
 === Guides
 //* link:guide-dependency-injection.asciidoc[Dependency Injection]
