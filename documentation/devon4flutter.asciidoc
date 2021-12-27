@@ -1,0 +1,26 @@
+= Flutter
+
+:description: comprehensive documentation for development with Flutter by devonfw-forge.
+:doctype: book
+:toc:
+:toc-title: Table of Contents
+:idprefix:
+:idseparator: -
+:reproducible:
+:source-highlighter: rouge
+:listing-caption: Listing
+:chapter-label:
+The devonfw community
+
+Add short description to devonfw-forge...
+
+The following sections contain the complete compendium of https://github.com/devonfw-forge/devon4flutter[devon4flutter] from devonfw-forge.
+
+You can also read the latest version of this documentation online at the following sources:
+
+//Replace this Quarkus example with the Flutter link:
+
+== General
+Here you can find documentation and code patterns for development with Flutter in general.
+
+include::flutter.asciidoc[Introduction to Flutter]
