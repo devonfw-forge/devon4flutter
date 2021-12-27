@@ -1,6 +1,7 @@
 == General
 
-== Flutter
+== flutter
+
 === link:flutter.asciidoc[Introduction to Flutter]
 
 === Guides

@@ -1,4 +1,6 @@
 = devon4flutter
+Add short description to devon4flutter
 
 == Documentation
+
 * link:documentation/flutter.asciidoc[Introduction to Flutter]
