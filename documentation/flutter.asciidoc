@@ -10,7 +10,7 @@ Flutter is an open source framework from Google that allows you to develop beaut
 With the help of the following links, you can find all the information you need about Flutter:
 
 * https://flutter.dev/[Flutter]
-* https://www.youtube.com/c/flutterdev[Flutter youtube tutorials]
+* https://www.youtube.com/c/flutterdev[Flutter YouTube tutorials]
 * https://www.raywenderlich.com/books/flutter-apprentice[Flutter Apprentice]
 
 Instructions for installing Flutter can be found here:
