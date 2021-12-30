@@ -3,9 +3,4 @@
 == flutter
 
 === link:flutter.asciidoc[Introduction to Flutter]
-
-// === Layers
-// * link:guide-client-layer.asciidoc[Client Layer (GUI)]
-
-// === Guides
-// * link:guide-dependency-injection.asciidoc[Dependency Injection]
+=== link:bloc.asciidoc[BLOC]
