@@ -20,7 +20,8 @@ BLoC attempts to make state changes predictable.
 == The architecture of BLoC 
 
 .BLoC Architecture 
-image::https://bloclibrary.dev/assets/bloc_architecture_full.png[]
+image::https://bloclibrary.dev/assets/bloc_architecture_full.png["BLoC Architecture",scaledwidth="80%",align="center",link="https://bloclibrary.dev/assets/bloc_architecture_full.png"]
+
 
 Using the BLoC library, it is possible to divide an application into three layers:
 
