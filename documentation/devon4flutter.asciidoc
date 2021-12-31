@@ -9,18 +9,22 @@
 :reproducible:
 :source-highlighter: rouge
 :listing-caption: Listing
-:chapter-label:
-The devonfw community
+:chapter-label: 
 
-Add short description to devonfw-forge...
+The devonfw community http://www.devonfw.com/[_devonfw_] provides a solution to building applications which combine best-in-class frameworks and libraries as well as industry proven practices and code conventions. It massively speeds up development, reduces risks and helps you to deliver better results.
 
 The following sections contain the complete compendium of https://github.com/devonfw-forge/devon4flutter[devon4flutter] from devonfw-forge.
 
 You can also read the latest version of this documentation online at the following sources:
 
-//Replace this Quarkus example with the Flutter link:
+* https://github.com/devonfw-forge/devon4flutter/wiki[devon4flutter on github wiki]
 
 == General
-Here you can find documentation and code patterns for development with Flutter in general.
 
-include::flutter.asciidoc[Introduction to Flutter]
+Here you can find the documentation and code patterns for development with Flutter in general.
+
+include::flutter.asciidoc[leveloffset=+2]
+
+include::bloc.asciidoc[leveloffset=+2]
+
+include::project_structure.asciidoc[leveloffset=+2]
