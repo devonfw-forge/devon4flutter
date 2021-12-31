@@ -1,0 +1,7 @@
+= Project structure
+
+Each Flutter application has a fixed base project structure, such as the lib folder. The lib folder is a fixed part and the main folder in every Flutter application. Everything in this folder is automatically bundled with the application. To keep a structured overview in our project, the structure of the BLoC pattern is used. Here subfolders like business logic, data, presentation and repository are created from the lib folder. For more information about this architecture, read the link:bloc.asciidoc[BLoC chapter]. 
+
+A good project structure includes a well thought out naming convention in the project code. This facilitates a good overview of the entire project and ensures a better understanding of the source code. Here, for example, it makes sense to use the past tense when naming event conventions, since they have already occurred from the perspective of BLoC. State conventions, on the other hand, should be nouns, for example, since they are only a snapshot of a particular point in time. 
+
+You can find more information here: link:https://bloclibrary.dev/#/de-de/blocnamingconventions[BLoC naming conventions]
