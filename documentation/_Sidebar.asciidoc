@@ -3,9 +3,6 @@
 == flutter
 
 === link:flutter.asciidoc[Introduction to Flutter]
-
-// === Layers
-// * link:guide-client-layer.asciidoc[Client Layer (GUI)]
-
-// === Guides
-// * link:guide-dependency-injection.asciidoc[Dependency Injection]
+=== link:getting_started.asciidoc[Getting started]
+=== link:bloc.asciidoc[BLoC]
+=== link:project_structure.asciidoc[Project structure]

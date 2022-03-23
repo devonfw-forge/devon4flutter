@@ -1,0 +1,66 @@
+= Getting started
+
+== *Preparation*
+* Install Flutter at the beginning. Open the link https://docs.flutter.dev/get-started/install and follow the installation instructions.
+* Then install a development environment such as Android Studio or VS Code. 
+
+=== *Using Android Studio*
+One variant that can be used to create a Flutter application is Android Studio. This variant has the advantage that you already have the emulator in the development environment and therefore do not have to install it additionally.
+
+To install Android Studio, click on this link and follow the installation instructions https://developer.android.com/studio?hl=de&gclid=EAIaIQobChMI7fbi3q_N9gIVg7h3Ch2QzAtgEAAYASAAEgJgZfD_BwE&gclsrc=aw.ds. After Android Studio has been successfully installed, launch the software. 
+
+To begin, you will need to create a new Flutter project. This can be created by clicking on the File tab at the top of the menu bar, then New, and then New Flutter Project. 
+
+To create the project, you now select the desired properties of the project. Among other things, give the project a name. For the Project location, it is important to note that you select the path where you want to save the project. After selecting the path, remember to create a folder with the project name. Now select the created project folder and save it as the new project path. After you have selected all the properties accordingly, press finish.
+
+In Android Studio you can install plugins by selecting the menu item File, then Settings and then the menu item Plugins. Before starting your project, install the necessary plugins Flutter and Dart.
+In general, all classes that belong to the project must be stored under the lib folder. Raw files like JSON, images etc. which will be used in the project are stored in the assets folder. The assets folder is not generated automatically, you create it yourself in the project folder. 
+
+To create a new file, click on the lib folder with the right mouse button, then a popup menu opens and there you select the option New and then Dart File. As in other programming languages, start here first with the import statements. These can be packages or other classes. After that follows the class signature and then the body. 
+
+Please note that the packages you use for your application must be installed via pubspec.yaml. The packages and installation instructions can be found on the https://pub.dev/ page.
+
+As mentioned at the beginning, Android Studio provides an emulator. You must generate this yourself before using it. The instructions for creating the emulator may vary among Android Studio versions. To create it in Android Studio Bumblebee 2021.1.1, follow these steps. First, select the Tools tab in the main menu. Then go to the Device Manager menu item. A window will open which has been set in advance to the virtual selection. Now click on the Create Device button and select the desired model and other settings for the emulator. After the creation the emulator is displayed. To start it, click on the Play button. After that, go to the Run tab in the main menu and execute the Run option to run your program and visualize it in the emulator.  
+
+=== *Visual Studio Code*
+Another variant that can be used to create a Flutter application is to use Visual Studio Code. Follow the installation instructions of the following link https://code.visualstudio.com/ to install Visual Studio Code. 
+
+There are now several options for creating the project. Either they open the command line in the folder where the project is to be generated or they open a terminal in Visual Studio Code. You can start the terminal via the menu item Terminal and then via New Terminal or via Ctrl+Shift+ö. Then switch to the path where the project is to be generated.  
+
+To generate the project, the command in both cases is flutter create and then the project name, for example flutter create first_app. It is important to note that if the project name contains multiple words, an underscore is used in the project name. As soon as there is a space as well as a hyphen in the project name, an error message is generated. 
+
+Now open the generated project in Visual Studio Code. This is done via the menu item File and then via Open Folder.
+
+Before you start with your program, install the extensions Flutter, Dart and Material Icon Theme. You can install the extensions via the left menu bar, via the four squares.
+
+Now you can proceed with your project. In general, all classes that belong to the project must be stored under the lib folder. Raw files like JSON, images etc. which will be used in the project will be stored in the assets folder. The assets folder is not generated automatically, you create it yourself in the project folder. 
+
+To create a new file, click on the lib folder with the right mouse button and then on New File. Note that the name of the file must be followed by a .dart. As in other programming languages, start with the import statements. These can be packages or other classes. This is followed by the class signature and then the body. 
+
+There is no emulator integrated in Visual Studio Code. This must be installed via an extension. One can use the emulator of Android Studio in Visual Studio Code. In doing so, they launch the software and generate the emulator. Apart from that there are also other emulators like for example the display via a browser. 
+
+Please note that the packages you use for your application must be installed via pubspec.yaml. The packages and installation instructions can be found on the https://pub.dev/ page.
+
+We recommend the following Visual Code Studio Extensions:
+
+* *Flutter:* the Flutter Extension provides support for effective editing, refactoring, execution and reloading of Flutter mobile apps, as well as support for the Dart programming language.
+
+* *Dart:* The Dart Extension provides tools for effectively editing, refactoring, executing, and reloading Flutter mobile apps. 
+
+* *dart-import:* dart-import is used to refactor and sort imports.
+
+* *Dart Data Class Generator:* This extension provides an easy and fast way to perform code generation.
+
+* *bloc:* The bloc extension uses the Bloc Library and provides an effective way to generate blocs and cubits. The extension should be installed if you use BloC in your application.
+
+* *Material Icon Theme:* This extension offers the possibility to display material design icons as an icon theme.
+
+* *Better Comments:* Better Comments is used for better commenting and overview of your code by helping to visualize the comments in categories such as queries or warnings.
+
+* *Bracket Pair Colorizer 2:* The Bracket Pair Colorizer 2 displays the bracket pairs in uniform colors, so you have a better overview in the code which brackets belong together. 
+
+* *Gradle Language Support:* This extension provides syntax highlighting, keyword auto-completion suggestions, and duplicate validation.
+
+* *VS Code Icons:* Better visualization of files and folders in Visual Studio Code through icons.
+
+* *Pubspec Assist:* Pubspec Assist helps to easily and quickly add the latest dependencies to the pubspec.yaml file without leaving the editor.

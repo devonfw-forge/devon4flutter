@@ -3,7 +3,7 @@ toc::[]
 :idprefix:
 :idseparator: -
 
-= Introduction to Flutter
+== Introduction to Flutter
 
 Flutter is an open source framework from Google that allows you to develop beautiful, native compiled, cross-platform applications for any screen. Here, web applications, desktop applications and embedded applications can be deployed and tested from a single code base. 
 

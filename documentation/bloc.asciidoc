@@ -1,0 +1,65 @@
+:toc: macro
+toc::[]
+:figure-caption:
+
+== BLoC
+In the production environment, managing state is significant when developing an application. Developers want to know what state the application is in at any given time. Likewise, it is important to determine if the developed application will respond appropriately in any scenario. Furthermore, it is important that developers work smoothly within a code base following the same pattern in order to develop fast and responsive applications. 
+This is where the BLoC pattern comes into play. BLoC stands for Business Logic Components and makes it easy to separate the presentation from the business logic. This makes it possible to reuse the code and test it quickly and easily. 
+There are several solutions for state management. However, it is up to you to decide which solution is most appropriate for your team and your project. 
+BLoC consists of three core values:
+
+* https://bloclibrary.dev/#/[BLOC library guides]
+* https://bloclibrary.dev/#/[BLOC library guides]
+* BLoC is designed so that any developer with different skill levels can understand and use the BLoC Pattern.
+* BLoC is powerful. BLoC can be used to create complex and impressive applications that are made up of smaller components.
+* Every aspect of an application can be tested, allowing developers to iterate with confidence.
+BLoC attempts to make state changes predictable.
+
+== The architecture of BLoC 
+.BLoC Architecture 
+image::https://bloclibrary.dev/assets/bloc_architecture_full.png["BLoC Architecture",scaledwidth="80%",align="center",link="https://bloclibrary.dev/#/de-de/architecture"]
+
+Using the BLoC library, it is possible to divide an application into three layers:
+
+* *Presentation layer:* The presentation layer represents the states of one or more BLoC states. Furthermore, it processes the user input as well as events in the life cycle of the application.
+* *Business logic layer:* The task of the business logic layer is to react to new states that are created by an input of the presentation layer. In order to be able to retrieve data required to build the application state, the business logic layer can depend on one or more repositories.
+* *Data layer*, which is divided into repository and data provider: The data layer has the task of retrieving or influencing data from one or more data sources. The data provider should be generic as well as versatile and has the task to provide raw data. The repository serves as a wrapper so that the data provider can communicate with the BLoC layer.
+
+== BLoC packages
+* https://bloclibrary.dev/#/[BLOC library guides]
+* https://bloclibrary.dev/#/[BLOC library guides]
+* https://bloclibrary.dev/#/[BLOC library guides]
+* https://bloclibrary.dev/#/[BLOC library guides]
+
+BLoC contains several core concepts which help to facilitate the understanding of how to use the bloc package. 
+For example, there is the package:bloc. This package contains:
+
+* *Streams:* Streams are a sequence of asynchronous data. 
+
+* *Cubits:* Cubits are classes that extend BlocBase and are used to manage any kind of state. For example, they provide functions that can trigger state changes (states) via functions. When creating a Cubit, it is important to note that the initial state and the type of the managed state are defined. States, on the other hand, represent a partial state of an application and are outputs of a cubit. User interfaces are notified of these states and redrawn based on the current state. 
+
+.Cubit
+image::https://raw.githubusercontent.com/felangel/bloc/master/docs/assets/cubit_architecture_full.png["Cubit",scaledwidth="80%",align="center",link="https://pub.dev/packages/bloc"] 
+
+* *Bloc:* Bloc, unlike a Cubit, is a more advanced class that triggers state changes (states) via events. The Blocbase is also extended by the Bloc class, so both classes have a similar API. Another difference to Cubit is that unlike Cubit, the Bloc class does not call functions to emit a state, Blocs receive events and convert them to states. The creation of a Bloc is similar to that of a Cubit. However, it should be noted that the managed state as well as the events that serve as input must be defined. These events can be user interactions such as pressing a button. In general, it should be noted that each Bloc is a special type of stream just like a Cubit and thus has a state stream that can be subscribed to by other Blocs. This is so that the blocs can react to the changed state within the subscribed bloc in real time.
+
+So far, some basics between Cubit and Bloc have been explained. However, the question here is which class to use and when. 
+
+Another package is the flutter_bloc. This package contains Bloc widgets that integrate Cubit and Bloc instances. The following widgets are part of this package:
+
+* *BlocBuilder:* BlocBuilder is used to build a widget so that it can respond to new states. 
+* *BlocProvider:* The BlocProvider is used as a dependency injection widget. Here, the widget provides new or individual instances of a bloc to multiple widgets of a sub-tree, its child elements. The BlocProvider is responsible for the creation as well as the closure of the Bloc. 
+* *MultiBlocProvider:* The MultiBlocProvider has the task to combine several BlocProvider widgets to one widget. This serves the clarity and thus the better readability. 
+* *BlocListener:* The BlocListener is called only once per state change including the initial state and has void as return value. It is used for functions that occur once per state change, such as displaying a snack bar. Here the widget uses a BlocListener as well as an optional Bloc to call the state change in a Bloc. 
+* *MultiBlocListener:* The MultiBlocListener has the same task as the MultiBlocProvider. To improve readability and overview, it combines several BlocListeners into one widget.
+* *BlocConsumer:* The BlocConsumer reacts to new states with the help of a builder and a listener. In contrast to a BlocBuilder and BlocListener it reduces the number of required boilerplates. The BlocProvider is only used when reactions to state changes in the Bloc as well as the new creation of a user interface are required.
+* *RepositoryProvider:* The RepositoryProvider is used as a dependency injection widget and is used to provide single instances of a repository to its child elements. 
+* *MultiRepositoryProvider:* The MultiRepositoryProvider provides several RepositoryProviders in one widget and thus ensures a better overview and readability. 
+
+https://bloclibrary.dev/#/de-de/flutterbloccoreconcepts[Here] you can find more detailed information on this topic. 
+
+== Links
+With the following links, you can find all the information you need about BLoC:
+
+* https://www.youtube.com/watch?v=w6XWjpBK4W8&list=PLptHs0ZDJKt_T-oNj_6Q98v-tBnVf-S_o[BLOC zero to hero guide]
+* https://bloclibrary.dev/#/[BLOC library guides]
