@@ -5,14 +5,30 @@ toc::[]
 
 == Introduction to Flutter
 
-Flutter is an open source framework from Google that allows you to develop beautiful, native compiled, cross-platform applications for any screen. Here, web applications, desktop applications and embedded applications can be deployed and tested from a single code base. 
+Flutter is an open source framework from Google that lets you develop beautiful, natively compiled, cross-platform applications for any screen. It lets you deploy and test web apps, desktop apps, and embedded apps from a single code base. 
 
-With the help of the following links, you can find all the information you need about Flutter:
+For development, Flutter uses the Dart programming language. Dart was developed by Google and is characterized by its simplicity to learn the programming language quickly. Other positive aspects of Dart are the active community, many available packages and the already included core module as well as a clear syntax. 
 
-* https://flutter.dev/[Flutter]
-* https://www.youtube.com/c/flutterdev[Flutter YouTube tutorials]
-* https://www.raywenderlich.com/books/flutter-apprentice[Flutter Apprentice]
+== The architecture layers of Flutter
 
-Instructions for installing Flutter can be found here:
+In this section we will briefly discuss the architecture of Flutter. The MVC pattern is not provided in Flutter. Instead, Flutter is a layered and extensible system that includes a number of independent libraries. It should be noted that no layer of the system has privileged access to the layer below it. In addition, each framework layer has been designed to be optional and interchangeable. 
 
-* https://docs.flutter.dev/get-started/install[Flutter install]
+The layer of build architecture that is used to compile flutter apps behind the scenes is the same as other native compilers. Flutter uses so-called widgets. Widgets are classes that contain the basis of the application as well as the partial description of the UI.  
+
+During app development, communication takes place with the framework layer, which is implemented in Dart. Below the framework are the engine layer as well as the embedder layer. Usually, these layers are accessed through a Dart API. 
+
+Here you can see an illustration of the architecture layers:
+
+.architecture layers of Flutter
+
+image::https://docs.flutter.dev/assets/images/docs/arch-overview/archdiagram.png["architecture layers of Flutter",scaledwidth="80%",align="center",link="https://docs.flutter.dev/resources/architectural-overview"]
+For more information on this topic, click link:https://docs.flutter.dev/resources/architectural-overview[here]. 
+	
+== Links
+
+* Instructions for installing Flutter can be found here: link:https://docs.flutter.dev/get-started/install[Flutter install]
+* Here you can find a manual that will help you to develop your first Flutter application: link:https://www.raywenderlich.com/books/flutter-apprentice[Flutter Apprentice]
+* With the following links, you can find all the information you need about Flutter: 
+** link:https://flutter.dev/[Flutter]
+** link:https://www.youtube.com/c/flutterdev[Flutter YouTube Tutorials]
+** link:https://entwickler.de/mobile/mach-die-flutter-001[Mach die Flutter]

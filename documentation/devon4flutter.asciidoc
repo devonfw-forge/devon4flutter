@@ -11,7 +11,6 @@
 :listing-caption: Listing
 :chapter-label:
 
-
 The devonfw community http://www.devonfw.com/[_devonfw_] provides a solution to building applications which combine best-in-class frameworks and libraries as well as industry proven practices and code conventions. 
 It massively speeds up development, reduces risks and helps you to deliver better results.
 
@@ -27,8 +26,8 @@ Here you can find the documentation and code patterns for development with Flutt
 
 include::flutter.asciidoc[leveloffset=+2]
 
-include::getting_started.asciidoc[leveloffset=+2]
-
 include::bloc.asciidoc[leveloffset=+2]
 
 include::project_structure.asciidoc[leveloffset=+2]
+
+include::getting_started.asciidoc[leveloffset=+2]

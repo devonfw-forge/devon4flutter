@@ -1,0 +1,18 @@
+:toc: macro
+toc::[]
+:figure-caption:
+
+== Employee Dialog Application 
+
+This sample Flutter Application was created by devonfw and is used to manage employees.
+
+*The application has the following properties:*
+
+* The display of a splash screen
+* The display of all employees in a listExample
+* The representation of all employees in a grid layout
+* The representation of the employee profile
+* The ability to create new employee profiles
+* Editing an existing employee profile
+* The deletion of employee profiles
+* The use of dark mode

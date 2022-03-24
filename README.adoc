@@ -5,9 +5,14 @@ Devon4flutter enables you to build Flutter applications in a highly efficient an
 In order to build applications for a devon4flutter backend, we recommend https://github.com/devonfw-forge/devon4flutter[devon4flutter].
 
 == Documentation
+
 * link:documentation/flutter.asciidoc[Introduction to Flutter]
-* link:documentation/bloc.asciidoc[BLoC]
-* link:documentation/project_structure.asciidoc[Project structure]
+
+* link:documentation/bloc.asciidoc[Introduction to BLoC]
+
+* link:documentation/project_structure.asciidoc[Introduction to Project structure]
 
 == Tutorial
+
 * link:documentation/getting_started.asciidoc[Getting started]
+* link:documentation/employee_dialog.asciidoc[Sample Application "Employee Dialog"]
