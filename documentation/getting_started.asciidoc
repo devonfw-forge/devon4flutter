@@ -16,8 +16,8 @@ If you have no previous knowledge of Flutter, it would be useful to read our doc
 
 ==== Step 3: Choose your Development Environment
 
-===== Using Android Studio
-One variant that can be used to create a Flutter application is Android Studio. This variant has the advantage that you already have the emulator in the development environment and therefore do not have to install it additionally.
+==== Using Android Studio
+One method that can be used to create a Flutter application is Android Studio. This variant has the advantage that you already have the emulator in the development environment and therefore do not have to install it additionally.
 
 To install Android Studio, click on this link:https://developer.android.com/studio?hl=de&gclid=EAIaIQobChMI7fbi3q_N9gIVg7h3Ch2QzAtgEAAYASAAEgJgZfD_BwE&gclsrc=aw.ds[link] and follow the installation instructions for Android Studio.  After Android Studio has been successfully installed, launch the software. 
 
@@ -34,8 +34,8 @@ Please note that the packages you use for your application must be installed via
 
 As mentioned at the beginning, Android Studio provides an emulator. You must generate this yourself before using it. The instructions for creating the emulator may vary among Android Studio versions. To create it in Android Studio Bumblebee 2021.1.1, follow these steps. First, select the Tools tab in the main menu. Then go to the Device Manager menu item. A window will open which has been set in advance to the virtual selection. Now click on the Create Device button and select the desired model and other settings for the emulator. After the creation the emulator is displayed. To start it, click on the Play button. After that, go to the Run tab in the main menu and execute the Run option to run your program and visualize it in the emulator.  
 
-===== Using Visual Studio Code
-Another variant that can be used to create a Flutter application is to use Visual Studio Code. Follow the installation instructions of the following link:https://code.visualstudio.com/[link] to install Visual Studio Code. 
+==== Using Visual Studio Code
+Another method that can be used to create a Flutter application is to use Visual Studio Code. Follow the installation instructions of the following link:https://code.visualstudio.com/[link] to install Visual Studio Code. 
 
 There are now several options for creating the project. Either they open the command line in the folder where the project is to be generated or they open a terminal in Visual Studio Code. You can start the terminal via the menu item Terminal and then via New Terminal or via Ctrl+Shift+ö. Then switch to the path where the project is to be generated.  
 
