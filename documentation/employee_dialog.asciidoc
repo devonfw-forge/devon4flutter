@@ -6,7 +6,7 @@ toc::[]
 
 This sample Flutter Application was created by devonfw and is used to manage employees.
 
-*The application has the following properties:*
+=== The application has the following properties:
 
 * The display of a splash screen
 * The display of all employees in a listExample
@@ -16,3 +16,23 @@ This sample Flutter Application was created by devonfw and is used to manage emp
 * Editing an existing employee profile
 * The deletion of employee profiles
 * The use of dark mode
+
+=== Below are snippets of the app:
+
+*Screenshot Splashscreen*
+
+The app starts with a splash screen. The logo in the splash screen was included as an asset in the app. 
+
+*Screenshot Appbar*
+
+The appbar offers the user the possibility to switch the application to darkmode. Furthermore, the user has the possibility to delete the employees via the settings button. The user has the choice between deleting single employees and deleting all employees. Furthermore the settings button offers the possibility to switch the listview between listview and gridview.
+
+*Screenshot List*
+
+The Listview visualizes all employees that have been created in the database. The user has the possibility to view the individual profiles of the employees. Furthermore this page offers the user to create a new employee as well as to delete an employee by swipe.
+
+*Screenshot Profile*
+
+The user profile offers the user the possibility to edit the user profile. 
+
+For the linking of the pages, the saving of the data etc. the bloc technology was used.
